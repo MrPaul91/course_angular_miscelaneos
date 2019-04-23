@@ -1,0 +1,13 @@
+
+.available {
+   color: green;
+
+}
+
+.unavailable {
+    color: red;
+}
+
+.passStyle {
+    color: blue;
+}
