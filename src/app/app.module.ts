@@ -14,7 +14,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { FeatureRoutingModule } from './app.routes';
 
 
-import { UsuarioComponent} from './components/usuario/usuario.component'
+import { UsuarioComponent} from './components/usuario/usuario.component';
+import { UsuarioNuevoComponent} from './components/usuario/usuario-nuevo.component';
+import { UsuarioEditarComponent } from './components/usuario/usuario-editar.component';
+import { UsuarioDetalleComponent } from './components/usuario/usuario-detalle.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +30,11 @@ import { UsuarioComponent} from './components/usuario/usuario.component'
     ResaltadoDirective,
     NgSwitchComponent,
     HomeComponent,
-    UsuarioComponent
+    UsuarioComponent,
+    UsuarioNuevoComponent,
+    UsuarioEditarComponent,
+    UsuarioDetalleComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
