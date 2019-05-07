@@ -12,8 +12,7 @@ import { Component, OnInit, OnChanges, DoCheck, AfterContentInit
   `,
   styles: []
 })
-export class HomeComponent implements OnInit,OnChanges DoCheck, AfterContentInit
-, AfterContentChecked, AfterViewInit, AfterViewChecked, OnDestroy {
+export class HomeComponent implements OnInit,OnChanges, DoCheck, AfterContentInit, AfterContentChecked, AfterViewInit, AfterViewChecked, OnDestroy {
 
   constructor() {
     console.log("constructor");
